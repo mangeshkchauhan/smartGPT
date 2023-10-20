@@ -1,0 +1,22 @@
+module.exports = {
+  bracketSpacing: false,
+  jsxBracketSameLine: false,
+  singleQuote: true,
+  trailingComma: 'all',
+  endOfLine: 'lf',
+  semi: true,
+  tabWidth: 2,
+  arrowParens: 'avoid',
+  '*.ts': ['organize-imports-cli', 'prettier --write'],
+  importOrder: ['<TYPES>', '^react$', '^react-native$', '^[a-z]', '^[./]'],
+  importOrderSeparation: true,
+  importOrderSortSpecifiers: true,
+  importOrderBuiltinModulesToTop: true,
+  importOrderParserPlugins: ['typescript', 'jsx', 'decorators-legacy'],
+  importOrderMergeDuplicateImports: true,
+  importOrderCombineTypeAndValueImports: true,
+  plugins: [
+    '@ianvs/prettier-plugin-sort-imports',
+    'prettier-plugin-tailwindcss',
+  ],
+};
