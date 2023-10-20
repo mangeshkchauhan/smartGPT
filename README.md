@@ -1,3 +1,7 @@
+
+![istockphoto-1253437873-612x612](https://github.com/mangeshkchauhan/smartGPT/assets/63477318/a663e23c-1a54-4c5d-be4f-bbaefa5f6fa1)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
